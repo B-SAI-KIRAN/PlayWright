@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  await page.goto('www.youtube.com');
+  await page.goto("https://www.youtube.com");
 
  
 });
